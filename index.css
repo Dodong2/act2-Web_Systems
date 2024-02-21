@@ -1,108 +1,109 @@
 * {
-    padding: 0;
+  padding: 0;
 }
 
 .special {
-    color: red;
+  color: red;
 }
 
 .exer5 {
-    background-color: red;
-    color: aliceblue;
+  background-color: red;
+  color: aliceblue;
 }
 
-.exer8 table, .exer8 th, .exer8 td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.exer8 table,
+.exer8 th,
+.exer8 td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-.exer8 th, .exer8 td {
-    padding: 5px;
-    text-align: center;
+.exer8 th,
+.exer8 td {
+  padding: 5px;
+  text-align: center;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-th, td {
-    padding: 5px;
-    text-align: left;
+th,
+td {
+  padding: 5px;
+  text-align: left;
 }
 
 /* exer 13 */
 .exer13 {
-    padding: 0;
-    margin:0;
-    background-image: url(./images/langit3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-  
+  padding: 0;
+  margin: 0;
+  background-image: url(./images/langit3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
 
 .container {
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .items {
-    padding: 50px;
-    margin-top: 40%;
-    border:2px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    display: grid;
-    background: rgba(255, 255, 255, 0.493);
-    box-shadow: 1px 1px 10px;
-    margin: 0 auto;
-    margin-top:100px;
+  padding: 50px;
+  margin-top: 40%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  display: grid;
+  background: rgba(255, 255, 255, 0.493);
+  box-shadow: 1px 1px 10px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 .bg {
-    font-family:'Times New Roman', Times, serif;
-    background: rgb(212, 200, 145);
-    padding: 3px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 1px 1px 5px;
-    border: none;
+  font-family: "Times New Roman", Times, serif;
+  background: rgb(212, 200, 145);
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 5px;
+  border: none;
 }
 .title {
-    padding: 20px;
-    text-shadow: 2px 2px 2px black;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
+  padding: 20px;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
-.Message{
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 0, 0, 0);
-    text-shadow: 2px 2px 2px black;
+.Message {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 0, 0, 0);
+  text-shadow: 2px 2px 2px black;
 }
 .ans {
-   
-    background: rgba(255, 0, 0, 0);
-    text-shadow: 2px 2px 2px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px black;
-    position: absolute;
-    
+  background: rgba(255, 0, 0, 0);
+  text-shadow: 2px 2px 2px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+  position: absolute;
 }
 
 @media (min-width: 768px) and (min-width: 320px) {
-    .items {
-       
-    }
+  .items {
+  }
 }
 
 @media (min-width: 1024px) {
-    .items {
-        margin-top:150px;
-    }
+  .items {
+    margin-top: 150px;
+  }
 }
