@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Act-1</title>
+  </head>
+  <body>
+    <!-- Exer 1 -->
+    <div class="exer1">
+      <h1>Carl Arocha</h1>
+      <p>Pogi</p>
+      <img src="./images/Ako.png" />
+    </div>
+
+
+    <!-- Exer 2 -->
+    <div class="exer2">
+        <h1>Carl Stephen</h1>
+        <h2>Carl Stephen</h2>
+        <h3>Carl Stephen</h3>
+        <h4>Carl Stephen</h4>
+        <h5>Carl Stephen</h5>
+        <h6>Carl Stephen</h6>
+    </div>
+
+    <!-- Exer 3 -->
+    <div class="exer3">
+        <a href="https://web.facebook.com/carlstephen.cazenas/">https://web.facebook.com/carlstephen.cazenas/</a>
+    </div>
+
+    <!-- Exer 4 -->
+    <div class="exer4">
+        <p>This is a paragraph</p>
+        <!-- Do not display this text in the  browser -->
+        <p>This is a paragraph</p>
+    </div>
+
+    <!-- Exer 5 -->
+    <div class="exer5">
+        <h1>This is Heading daw</h1>
+        <p>This is a pragraph</p>
+        <p>This is also pragraph</p>
+        <p>This is a third pragraph</p>
+    </div>
+
+    <!-- Exer 6 -->
+    <div class="exer6">
+        <a href="https://www.w3schools.com/">Visit our HTML tutorial.</a>
+    </div>
+
+    <!-- Exer 7 -->
+    <div class="exer7">
+        <a href="https://www.w3schools.com/"><img src="./images/purpose.jpg" alt="HTML tutorial" 
+            style="width: 100px; height: 100px;" /></a>
+        
+    </div>
+
+    <!-- Exer 8 -->
+    <div class="exer8">
+        <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Points</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+    </div>
+<br>
+    <!-- Exer 9 -->
+    <div class="exer9">
+        <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Points</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+    </div>
+
+    <!-- Exer 10 -->
+    <div class="exer10">
+        <h1>My <span class="special">Important</span> Heading</h1>
+        <p class="special">My important paragraph.</p>
+    </div>
+
+    <!-- Exer 11 -->
+    <div class="exer11">
+        <h1>My <span class="special" id="special">Unique</span> Heading</h1>
+    </div>
+
+    <!-- Exer 12 -->
+    <div class="exer12">
+    
+    </div>
+
+    <!-- Exer 13 -->
+    <div class="exer13">
+        <h1 class="title">Registration Form papuntang langit</h1>
+        <div class="container">
+            <nav class="items">
+                <input type="text" id="fname" class="bg" name="Fname" placeholder="Enter First name: " required/><br>
+                <input type="text" id="mname" class="bg" name="Mname" placeholder="Enter Middle name: "/><br>
+                <input type="text" id="iname" class="bg" name="Iname" placeholder="Enter Initial name: "/><br>
+                <input type="text" id="sname" class="bg" name="Sname" placeholder="Enter Surname: " required/><br>
+                <select name="cars" class="bg" id="gender">
+                    <option value="" disabled selected>Select Gender: </option>
+                    <option value="saab">Male</option>
+                    <option value="saab">Female</option>
+                  </select><br>
+                  <input type="text" id="age" class="bg" name="Age" placeholder="Enter Age: " required/><br>
+                  <input type="text" id="sins" class="bg" name="sins" placeholder="Count of Sins " required/><br><br><br>
+                  <input type="submit"  name="submit" class="bg" onclick="regis();" value="submit"/>
+                  <div class ="Message">
+                    <h2 id="g" class="ans"></h2>
+                    <h2 id="a" class="ans"></h2>
+                </div>
+            </nav>
+            
+        </div>
+    </div>
+    <script type="text/JavaScript">
+        function regis() {
+            var a = document.getElementById("fname").value
+            var b = document.getElementById("mname").value
+            var c = document.getElementById("iname").value
+            var d = document.getElementById("sname").value
+            var e = document.getElementById("gender").value
+            var f = document.getElementById("age").value
+            var g = document.getElementById("sins").value
+    
+            if (g >= 100)  {
+                document.getElementById("g").innerHTML = "AHAHAHA, Dami ng Kasalan mo a bago bago ";
+            }
+            else if ((a == "") && (b =="") && (c =="") && (d =="") && (e =="") && (f =="") && (g =="")){
+                document.getElementById("a").innerHTML="Mag Fill-Up ka muna!!";
+            }
+            else if (g <= 50) {
+                document.getElementById("g").innerHTML = "AHAHAHA, madami dami kasalanan mo a, <br>buti may interview kapa kay San Pedro AKYAT NA!!";
+            }
+        }
+    </script>
+</body>
+
+
+</html>
